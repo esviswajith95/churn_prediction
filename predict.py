@@ -5,12 +5,13 @@ from flask import Flask
 from flask import request
 from flask import jsonify
 
-app = Flask('predict')
-
+#load model file
 model_file = "churn_model.bin"
-
 with open(model_file, 'rb') as f_in:
     model = pickle.load(f_in)
+
+#app
+app = Flask('predict')
 
 @app.route('/predict', methods=['POST'])
 def predict():
