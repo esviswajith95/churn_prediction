@@ -20,3 +20,16 @@ Various models were applied on the datset to select the best model. The best mod
 
 The final model was turned into a web service through a flask app. This is then containarized with docker for easy deployment.
 
+To run locally,
+
+Step 1: Build the docker image
+
+'''
+docker build -t churn .
+'''
+
+Step 2: Run the docker image
+
+'''
+docker run -it --rm -p 9696:9696 churn
+'''
