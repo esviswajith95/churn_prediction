@@ -18,5 +18,5 @@ Various models were applied on the datset to select the best model. The best mod
 
 ## Deployment
 
-The the final model was turned into a web service through a flask app. This is then containarized with docker for easy deployment.
+The final model was turned into a web service through a flask app. This is then containarized with docker for easy deployment.
 
