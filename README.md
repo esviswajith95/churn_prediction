@@ -24,12 +24,12 @@ To run locally,
 
 Step 1: Build the docker image
 
-'''
+```
 docker build -t churn .
-'''
+```
 
 Step 2: Run the docker image
 
-'''
+```
 docker run -it --rm -p 9696:9696 churn
-'''
+```
