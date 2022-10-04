@@ -10,11 +10,11 @@ The dataset used can be found [here](https://www.kaggle.com/datasets/blastchar/t
 
 ## Exploratory Data Analysis
 
-Exploratory data analysis was performed to gain understanding of the dataset and features available. Refer to (this notebook)[https://github.com/esviswajith95/churn_prediction/blob/master/notebooks/eda.ipynb] for details.
+Exploratory data analysis was performed to gain understanding of the dataset and features available. Refer to [this notebook](https://github.com/esviswajith95/churn_prediction/blob/master/notebooks/eda.ipynb) for details.
 
 ## Modelling
 
-Various models were applied on the datset to select the best model. The best model turned out to be a Logistic Regression model. Refer to (this notebook)[https://github.com/esviswajith95/churn_prediction/blob/master/notebooks/modelling.ipynb] for detailed set up and analysis of models.
+Various models were applied on the datset to select the best model. The best model turned out to be a Logistic Regression model. Refer to [this notebook](https://github.com/esviswajith95/churn_prediction/blob/master/notebooks/modelling.ipynb) for detailed set up and analysis of models.
 
 ## Deployment
 
